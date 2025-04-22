@@ -90,6 +90,8 @@ catch(Exception ex)
         catch(Exception ex)
 {
     Console.WriteLine(ex.Message);
+        Console.WriteLine(ex.Message);
+
             return BadRequest("An error occurred while creating the furniture item.");
 
 }
